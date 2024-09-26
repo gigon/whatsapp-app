@@ -1,13 +1,12 @@
 {
     "manifest_version": 3,
-    "name": "Open in WhatsApp App",
+    "name": "Message israeli number in WhatsApp App",
     "version": "1.1",
-    "description": "Create a message to the selected number in the WhatsApp Windows App",
-    "permissions": ["contextMenus", "tabs", "storage"],
+    "description": "Send message to the selected Israeli mobile number in the WhatsApp Windows App.",
+    "permissions": ["contextMenus", "tabs"],
     "background": {
       "service_worker": "background.js"
     },
-    "options_page": "options.html",
     "icons": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
