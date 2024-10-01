@@ -3,7 +3,7 @@
     "name": "Message israeli number in WhatsApp App",
     "version": "1.1",
     "description": "Send message to the selected Israeli mobile number in the WhatsApp Windows App (assuming you have installed the WhatsApp app)",
-    "permissions": ["contextMenus", "tabs"],
+    "permissions": ["contextMenus"],
     "background": {
       "service_worker": "background.js"
     },
